@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+  }
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: palatino;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+h4 {
+    color: black;
+    text-align: center;
+}
