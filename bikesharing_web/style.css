@@ -10,6 +10,12 @@ p {
   font-family: palatino;
   font-size: 20px;
   font-weight: normal;
+  color: black;
+}
+
+h3 {
+  color: black;
+  text-align: center;
 }
 
 ul {
@@ -21,4 +27,16 @@ ul {
 h4 {
     color: black;
     text-align: center;
+}
+
+.navbar-header {
+  background-color: rgb(102, 153, 255);
+}
+
+.card {
+  padding: 16px;
+  background-color: rgb(210, 221, 234);
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
 }
