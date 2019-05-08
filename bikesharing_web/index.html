@@ -20,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="color:black;">&nbsp&nbsp&nbspBikesharing</a>
+                <a class="navbar-brand" href="index.html" style="color:white;">&nbsp&nbsp&nbspBikesharing</a>
             </div>
             <!-- Collect the nav links and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-data">
@@ -28,9 +28,9 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="nyc.html">NYC: Citibike</a></li>
-                            <li><a href="dc.html">DC: Capital One</a></li>
-                            <li><a href="chicago.html">Chicago: Divvy</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="dc.html">Washington D.C.</a></li>
+                            <li><a href="chicago.html">Chicago</a></li>
                         </ul>
                     </li>
                     <!-- insert data file here  -->
@@ -44,15 +44,20 @@
             <div class="card col-md-8">
                 <h3>Summary</h3>
                 <hr>
+                <p style="text-align: center;">
                 <img style="padding:0 15px; float: center;" src="citibike1.png" width = "50%">
+                </p>
                 <p>
-                    For this project we decided to focus on three major cities in the US with the best bike-sharing programs: New York City,
+                    This project focuses on three major cities in the US with the best bike-sharing programs: New York City,
                     Washington D.C. and Chicago. We used machine learning to analyze all the reviews of these programs from both Yelp and 
-                    TripAdvisor. 
+                    TripAdvisor. Specifically we focused on Natural Language Processing [NLP] to analyze the reviews themselves, since the ratings, 
+                    which are a range from 1 to 5 stars, don't provide enough information on their own. The analysis offers a look into 
+                    the frequency of certain types of reviews 
+
                     <br><br>
-                    Our data cleanup involved scraping data from those sites with BeautifulSoup and 
-                    using Jupyter Notebook to merge tables and get rid of any unnecessary data. There was a lot of data to clean 
-                    for this project since it was not structured in a way that would've been easy to interpret. 
+                    The data cleanup involved scraping data from those sites with BeautifulSoup and using Jupyter Notebook 
+                    to merge tables and get rid of any unnecessary data. There was a lot of data to clean for this project 
+                    since it was not structured in a way that would've been easy to interpret. 
                 </p>
             </div>
             <div class="card col-md-4">
