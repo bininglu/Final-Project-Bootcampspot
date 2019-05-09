@@ -89,3 +89,7 @@ h4 {
 .dropdown-menu {
   width: 215px;
 }
+
+p {
+  font-family: sans-serif;
+}
